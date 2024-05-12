@@ -4,13 +4,13 @@ project('LearnOpenGL', 'cpp',
 # Add your project configuration and build settings here
 
 # Add your subprojects here
-glew_subproject = subproject('glew')
 glfw_subproject = subproject('glfw')
+glad_subproject = subproject('glad')
 
 # Add your source files and dependencies here
-glew_dep = glew_subproject.get_variable('glew_dep')
 glfw_dep = glfw_subproject.get_variable('glfw_dep')
+glad_dep = glad_subproject.get_variable('glad_dep')
 
 # Add your build targets and installation rules here
-hello_window_exe = executable('hello-window', 'hello_window.cpp',
-                              dependencies: [glew_dep, glfw_dep])
+hello_window_exe = executable('hello-window', '01-hello_window.cpp',
+                              dependencies: [glad_dep, glfw_dep])

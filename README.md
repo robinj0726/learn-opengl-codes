@@ -6,7 +6,6 @@
 ## Build on Windows
 
 ```console
+meson wrap install glfw
 meson build --backend=vs
 ```
-
-For the subproject glew32, please change the value of the compilation option of Basic Runtime Checks to "Defalt" in MSVC
