@@ -3,13 +3,15 @@
 - [Learn OpenGL](https://learnopengl-cn.github.io/)
 - [Learn OpenGL CN](https://learnopengl.com/Getting-started/OpenGL)
 
-## Subprojects
+### dependencies
+
+for glfw,
 
 ```console
 meson wrap install glfw
 ```
 
-for glad lib, refer to [mesonbuild subprojects](https://mesonbuild.com/Subprojects.html)
+for glad, refer to [mesonbuild subprojects](https://mesonbuild.com/Subprojects.html)
 
 ## Build on Windows
 
