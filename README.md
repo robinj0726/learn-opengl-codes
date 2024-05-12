@@ -3,7 +3,7 @@
 - [Learn OpenGL](https://learnopengl-cn.github.io/)
 - [Learn OpenGL CN](https://learnopengl.com/Getting-started/OpenGL)
 
-### dependencies
+### Add Dependencies
 
 for glfw,
 
