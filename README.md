@@ -1,7 +1,7 @@
 # learn-opengl-codes
 
-- [Learn OpenGL](https://learnopengl-cn.github.io/)
-- [Learn OpenGL CN](https://learnopengl.com/Getting-started/OpenGL)
+- [Learn OpenGL 中文版](https://learnopengl-cn.github.io/)
+- [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL)
 
 ### Add Dependencies
 
